@@ -1,4 +1,27 @@
 print("hello world")
+print('hello jeff')
+
+
+firstName = input('what is your name  ')
+print("hello", firstName)
+if firstName == 'Jeff':
+    print(firstName, 'is python')
+elif firstName == 'Max':
+    print(firstName, 'is learning')
+else:
+    print('you should learn python, {}'.format(firstName))
+print('have a great day {}'.format(firstName))
+
+praise = 'you are doing great'
+praise = praise.upper()
+number = len(praise)
+result = praise + '!' * number
+print(result)
+
+advice2 = 'dont repeat yourself. keep dry'
+advice2 = advice2.upper()
+number = advice2 + "!" * number
+print(result)
 
 # comment
 # js - let, const,var
@@ -93,3 +116,4 @@ else:
     print("invalid choice")
     exit(1)
 print("result: ",result)
+
